@@ -8,6 +8,11 @@ python -m pip install Django
 git clone https://github.com/jessicakan789/django-polls
 ```
 
+# OPTIONAL: install app as package
+```
+python -m pip install --user dist/django-polls-0.1.tar.gz
+```
+
 # How to use
 ```
 cd django-polls
