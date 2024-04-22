@@ -1,19 +1,19 @@
 # Django Poll App
 The [Django Tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial01/) was followed to create an app that allows the user to answer a poll question.
 
-# How to install
+## How to install
 ```
 python -m pip install Django
 
 git clone https://github.com/jessicakan789/django-polls
 ```
 
-# OPTIONAL: install app as package
+### OPTIONAL: install app as package
 ```
 python -m pip install --user dist/django-polls-0.1.tar.gz
 ```
 
-# How to use
+## How to use
 ```
 cd django-polls
 
@@ -26,7 +26,7 @@ Click on "What's up?"
 
 Then answer the poll question and use "Vote again" to vote again.
 
-# Updating the database
+## Updating the database
 ```
 python manage.py migrate
 
@@ -37,12 +37,14 @@ python manage.py sqlmigrate <app_label> <migration_number>
 python manage.py migrate
 ```
 
-# Admin notes
+## Admin notes
 ```
-python manage.py createsuperuser
+python manage.py createsuperuser  # To create admin account
 ```
 
-# Project notes
+Navigate to http://127.0.0.1:8000/admin in a browser
+
+## Project notes
 manage.py: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py.
 
 The inner mysite/ directory is the actual Python package for your project. Its name is the Python package name you’ll need to use to import anything inside it (e.g. mysite.urls).
