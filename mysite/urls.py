@@ -19,8 +19,8 @@ from django.urls import include, path
 from .views import redirect_view
 
 urlpatterns = [
-    path("polls/", include("polls.urls")),
-#    path("polls/", include("django_polls.urls")),
+#    path("polls/", include("polls.urls")),
+    path("polls/", include("django_polls.urls")),
     path("admin/", admin.site.urls),
     path('', redirect_view)
 ]
